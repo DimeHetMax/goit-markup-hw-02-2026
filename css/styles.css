@@ -29,7 +29,6 @@ h4,
 h5,
 h6 {
   margin: 0;
-  font-family: var(--second-family);
   color: var(--navy-blue);
   letter-spacing: 0.02em;
 }
@@ -48,7 +47,6 @@ h3 {
   font-size: 36px;
   line-height: 1.11;
   margin: 0;
-  font-family: var(--second-family);
   color: var(--navy-blue);
   letter-spacing: 0.02em;
 }
@@ -102,14 +100,18 @@ a {
 .button:focus {
   background: var(--ocean);
 }
+address {
+  font-style: normal;
+}
 /* header */
 .logo {
+  font-family: var(--second-family);
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--navy-blue);
+  color: var(--iris);
 }
 
 .nav-link {
@@ -148,7 +150,7 @@ a {
   background-color: var(--navy-blue);
 }
 .logo-footer {
-  color: var(--white);
+  color: var(--cloud);
 }
 .footer-text {
   color: var(--cloud);
